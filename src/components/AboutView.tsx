@@ -5,7 +5,7 @@
 
 import { motion } from 'motion/react';
 import {
-  Sparkles,
+  FileText,
   BookOpen,
   Cpu,
   Bookmark,
@@ -119,7 +119,7 @@ export default function AboutView() {
         <div className="bg-white border border-zinc-200 p-6 rounded-2xl shadow-xs space-y-4 hover:border-black transition-colors duration-200">
           <div className="flex items-center justify-between border-b border-zinc-100 pb-3">
             <h3 className="font-sans font-bold text-sm text-black flex items-center gap-2">
-              <Sparkles className="w-4 h-4 text-black" />
+              <FileText className="w-4 h-4 text-black" />
               Clinical Publications
             </h3>
             <span className="text-[10px] font-mono bg-zinc-100 text-zinc-800 px-2 py-0.5 rounded font-bold">PEER-REVIEWED</span>

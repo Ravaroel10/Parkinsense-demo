@@ -598,7 +598,7 @@ export default function App() {
                   <Atom className="w-4 h-4 text-zinc-400 animate-spin" />
                   <div>
                     <p className="text-[10px] font-bold leading-none">VOC Desorption</p>
-                    <p className="text-[8px] font-mono text-zinc-400">94.2% AI Model Precision</p>
+                    <p className="text-[8px] font-mono text-zinc-400">94.2% SVM Precision</p>
                   </div>
                 </motion.div>
 
@@ -905,7 +905,7 @@ export default function App() {
                   The Science Behind Our Platform
                 </h2>
                 <p className="text-xs sm:text-sm text-zinc-600 max-w-xl mx-auto leading-relaxed">
-                  Pioneering healthcare innovation, we leverage cutting-edge technologies, from 4-channel e-nose gas sensing to AI-driven analysis.
+                  Pioneering healthcare innovation, we leverage cutting-edge technologies, from 4-channel e-nose gas sensing to calibrated SVM pattern analysis.
                 </p>
               </div>
 

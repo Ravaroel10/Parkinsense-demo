@@ -28,7 +28,7 @@ import {
   Download,
   FolderOpen,
   ArrowRight,
-  Sparkles,
+  FastForward,
   Info,
   Cpu,
   Radio,
@@ -1022,7 +1022,7 @@ export default function AcquisitionWizard({
                   onClick={skipStabilization}
                   className="w-full bg-white hover:bg-zinc-100 text-black py-2 rounded-lg text-xs font-mono font-semibold transition-all cursor-pointer border border-zinc-200 flex items-center justify-center gap-1.5 shadow-xs"
                 >
-                  <Sparkles className="w-3.5 h-3.5" />
+                  <FastForward className="w-3.5 h-3.5" />
                   <span>Fast-Forward Stabilization</span>
                 </button>
               </div>
@@ -1192,7 +1192,7 @@ export default function AcquisitionWizard({
                   onClick={fastForwardRecording}
                   className="w-full bg-white hover:bg-zinc-100 text-zinc-700 py-1.5 rounded-lg text-[10px] font-mono font-semibold transition-all cursor-pointer border border-zinc-200 flex items-center justify-center gap-1 shadow-xs"
                 >
-                  <Sparkles className="w-3 h-3" />
+                  <FastForward className="w-3 h-3" />
                   <span>Instantly Complete 300s Acquisition</span>
                 </button>
               </div>
